@@ -1,6 +1,7 @@
 # messageSender-GUI
 A python script to send bulk text message through SMS Gateway API.
 
+You can access it using your Terminal
 
 __________________________________________________________________________
 **Usage**
