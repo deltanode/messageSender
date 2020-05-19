@@ -16,9 +16,6 @@ __________________________________________________________________________
 
 
 __________________________________________________________________________
-**Requirement:**
-Tkinter
-
 **License**
 
 This project is licensed under the terms of the [MIT license](https://github.com/nagracks/organizer/blob/master/LICENSE).
