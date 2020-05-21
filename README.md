@@ -15,10 +15,9 @@ __________________________________________________________________________
 4. `python messageSender.py`
 
 
-__________________________________________________________________________
-
 ![](Screenshot.png)
 
+__________________________________________________________________________
 **License**
 
 This project is licensed under the terms of the [MIT license](https://github.com/nagracks/organizer/blob/master/LICENSE).
