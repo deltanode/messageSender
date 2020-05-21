@@ -73,5 +73,26 @@ lb_status.grid(row=5,column=1,padx=5,pady=5,sticky=tk.E)
 root.mainloop()
 
 
-##  ------------  Adding Email ----------------------------
+##  ------------ Beta mode - Adding Email ------------------------------
 
+import smtplib as s
+
+def sendMail():
+    obj=s.SMTP("smtp.gmail.com",587)
+    obj.starttls()
+
+    myemail="*******@gmail.com"        #for Login
+    password="*******"
+    obj.login(myemail,password)
+
+    subject="Testing email"
+    body="This is a test mail."
+    message="Subject:{}\n\n{}".format(subject,body)
+    # print(message)
+
+    listofAddresses=["test1@gmail.com","test2@gmail.com"]
+    obj.sendmail(myemail,listofAddresses,message)
+    print("Mail Send")
+    obj.quit()
+
+# sendMail()
