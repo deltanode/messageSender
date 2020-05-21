@@ -10,7 +10,7 @@ __________________________________________________________________________
 
 2. git clone this project to your preferred directory.
 
-3. `cd messageSender`
+3. `cd messageSender-GUI`
 
 4. `python messageSender.py`
 
