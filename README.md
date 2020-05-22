@@ -12,7 +12,7 @@ __________________________________________________________________________
 
 3. `cd messageSender-GUI`
 
-4. `python messageSender.py`
+4. `python messageSender.py`  
 
  
 
