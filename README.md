@@ -15,8 +15,6 @@ __________________________________________________________________________
 4. `python messageSender.py`  
 
 <br/>
---<br/>
-
 or Execute:
 ```
 ExecuteMessageSender.cmd
